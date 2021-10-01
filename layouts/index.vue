@@ -19,4 +19,9 @@
     padding: 1rem;
     border-radius: 1rem;
   }
+
+  .w-fit-content {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
 </style>

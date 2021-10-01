@@ -9,7 +9,6 @@
         <nuxt-link class="nav-link flex-grow-1" :class="page == 'author' ? 'active' : ''" to="/author">Autor</nuxt-link>
       </b-navbar-nav>
 
-      <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
         <a class="nav-link btn btn-outline-success text-success" target="_blank" href="https://www.amazon.de/Aufbruch-nach-Honua-Reinhard-L%C3%B6chner-ebook/dp/B09HHR8ZCJ/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1633005611&sr=8-2">Jetzt Kaufen</a>
       </b-navbar-nav>
