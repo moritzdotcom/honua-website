@@ -1,8 +1,8 @@
 <template>
   <div class="footer position-fixed d-flex justify-content-center">
-    <a target="_blank" href="https://www.facebook.com/reinhard.loechner/">Facebook</a>
-    <a target="_blank" href="https://www.linkedin.com/in/reinhard-l%C3%B6chner-a45200/">LinkedIn</a>
-    <a target="_blank" href="https://www.xing.com/profile/Reinhard_Loechner/cv">Xing</a>
+    <a class="footer-link" target="_blank" href="https://www.facebook.com/reinhard.loechner/">Facebook</a>
+    <a class="footer-link" target="_blank" href="https://www.linkedin.com/in/reinhard-l%C3%B6chner-a45200/">LinkedIn</a>
+    <a class="footer-link" target="_blank" href="https://www.xing.com/profile/Reinhard_Loechner/cv">Xing</a>
   </div>
 </template>
 
@@ -18,10 +18,15 @@
     background: #0009;
   }
 
-  a {
+  .footer-link {
     padding: 1rem 2rem;
     color: white;
     font-family: monaco;
     cursor: pointer;
+  }
+
+  .footer-link:hover {
+    color: green;
+    text-decoration: none;
   }
 </style>

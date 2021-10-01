@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1 style="text-align: center; margin-top: 3rem; background: #0009">
+    <h1 style="text-align: center; margin-top: 3rem; background: #0009; font-size: 3.5vw">
       <vue-typer
-        text="Mission Honua"
+        text="Mission Atlantis"
         :repeat='0'
         :pre-type-delay='1000'
         :type-delay='70'
@@ -10,7 +10,7 @@
       </vue-typer>
       <br>
       <vue-typer
-        text="Die Menschheitsgeschichte Neu Erzählt"
+        text="Die Geschichte der Menschheit wird neu geschrieben"
         :repeat='0'
         :pre-type-delay='3000'
         :type-delay='70'
@@ -20,7 +20,7 @@
       <vue-typer
         text="Wilkommen an Board."
         :repeat='0'
-        :pre-type-delay='6000'
+        :pre-type-delay='7000'
         :type-delay='70'
       >
       </vue-typer>

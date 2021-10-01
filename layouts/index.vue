@@ -1,0 +1,22 @@
+<template>
+</template>
+
+<script>
+</script>
+
+<style>
+  .earth-bg {
+    background: url('~assets/earth.jpeg');
+    height: 300vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .content-card {
+    color: #FFF;
+    background: #0009;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+</style>
