@@ -42,22 +42,20 @@
 
   let moveElements = null
 
-  document.addEventListener('DOMContentLoaded', e => {
-    window.addEventListener('scroll', e => {
-      if (moveElements) {
-        moveElements.forEach(elem => {
-          if ((elem.offsetTop - window.pageYOffset) <= 100) {
-            let offset = 100 - (elem.offsetTop - window.pageYOffset)
-            if (elem.dataset.direction == 'left') {offset = offset * -1}
-            elem.style.transform = `translateX(${offset}vw)`;
-          } else {
-            elem.style.transform = "";
-          }
-        })
-      } else {
-        moveElements = document.querySelectorAll('.move-on-scroll')
-      }
-    })
+  window.addEventListener('scroll', e => {
+    if (moveElements) {
+      moveElements.forEach(elem => {
+        if ((elem.offsetTop - window.pageYOffset) <= 100) {
+          let offset = 100 - (elem.offsetTop - window.pageYOffset)
+          if (elem.dataset.direction == 'left') {offset = offset * -1}
+          elem.style.transform = `translateX(${offset}vw)`;
+        } else {
+          elem.style.transform = "";
+        }
+      })
+    } else {
+      moveElements = document.querySelectorAll('.move-on-scroll')
+    }
   })
 </script>
 
