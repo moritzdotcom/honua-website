@@ -5,6 +5,10 @@
 </script>
 
 <style>
+  body {
+    background: #000;
+  }
+
   .earth-bg {
     background: url('~assets/earth.jpeg');
     height: 300vh;
