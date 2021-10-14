@@ -38,4 +38,8 @@
   .collapse.show {
     display: inline;
   }
+
+  a {
+    cursor: pointer;
+  }
 </style>

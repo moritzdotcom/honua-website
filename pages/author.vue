@@ -1,5 +1,5 @@
 <template>
-  <div class="earth-bg">
+  <div class="">
     <Navbar page="author"/>
     <div class="content-card">
       <h1>Der Autor</h1>
@@ -8,7 +8,6 @@
     <div class="text-center">
       <a class="btn btn-success" target="_blank" href="https://www.amazon.de/Reinhard-L%C3%B6chner/e/B09HJGPN47/ref=ntt_dp_epwbk_0">Mehr zum Autor</a>
     </div>
-    <Footer/>
   </div>
 </template>
 

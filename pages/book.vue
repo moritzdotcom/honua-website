@@ -1,5 +1,5 @@
 <template>
-  <div class="earth-bg">
+  <div class="">
     <Navbar page="book"/>
     <div class="content-card">
       <h1>Aufbruch nach Honua (Band 1)</h1>
@@ -8,7 +8,6 @@
     <div class="text-center">
       <a class="btn btn-success" target="_blank" href="https://www.amazon.de/dp/B09HG6HNB8/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=">Jetzt Kaufen</a>
     </div>
-    <Footer/>
   </div>
 </template>
 
