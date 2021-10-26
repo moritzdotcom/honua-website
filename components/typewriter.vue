@@ -21,7 +21,7 @@
       </div>
       <div class="move-on-scroll" data-direction="left">
         <vue-typer
-          text="Wilkommen an Board."
+          text="Wilkommen an Bord."
           :repeat='0'
           :pre-type-delay='7000'
           :type-delay='70'
