@@ -17,6 +17,43 @@
     background: #000;
   }
 
+  h1, h2, h3, h4, h5, p {
+    /* Font minimum, preferred and maximum value */
+    font-size: clamp(var(--min), var(--val), var(--max));
+  }
+
+  /* Font size variables */
+  h1 {
+    --min: 2em; /* minimum value */
+    --val: 4vw; /* preferred value = 5% viewport width */
+    --max: 3em; /* maximum value */
+  }
+  h2 {
+    --min: 1.8em;
+    --val: 3.8vw;
+    --max: 2.8em;
+  }
+  h3 {
+    --min: 1.6em;
+    --val: 3.6vw;
+    --max: 2.6em;
+  }
+  h4 {
+    --min: 1.4em;
+    --val: 3.4vw;
+    --max: 2.4em;
+  }
+  h5 {
+    --min: 1.2em;
+    --val: 2.2vw;
+    --max: 2.2em;
+  }
+  p {
+    --min: 1em;
+    --val: 2vw;
+    --max: 2em;
+  }
+
   .wrapper {
     height: 100vh;
     overflow-x: hidden;

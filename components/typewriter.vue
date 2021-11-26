@@ -1,6 +1,6 @@
 <template>
   <div style="min-height: 15vw">
-    <h1 style="text-align: center; margin-top: 5rem; background: #0009; font-size: 3.5vw">
+    <h1 style="text-align: center; margin-top: 5rem; background: #0009;">
       <div class="move-on-scroll" data-direction="left">
         <vue-typer
           text="Mission Atlantis"
